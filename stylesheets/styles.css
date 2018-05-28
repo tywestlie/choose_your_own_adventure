@@ -1,10 +1,13 @@
 body {
   font-family: 'Robot', sans-serif;
+  background-image: url('https://cdn.onekindesign.com/wp-content/uploads/2017/12/Modern-Mountain-House-Locati-Architects-01-1-Kindesign.jpg')
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  padding
 }
 
 .nav-stuff {
@@ -20,7 +23,38 @@ nav {
   font-size: 12px;
 }
 
+.earnings-search h1 {
+  font-size: 20px;
+}
+
+.text {
+  width: 411px ;
+  height: 111px;
+  margin: auto;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
 .logo {
   height: 50px;
   width: 75px;
+}
+
+.earnings-search {
+  margin-top: 100px;
+  margin-right: 75px;
+  width: 415px;
+  height: 430px;
+  background-color: white;
+}
+
+.earnings-search h1 {
+  padding-left: 50px;
+}
+
+form {
+  padding-left: 50px;
 }
