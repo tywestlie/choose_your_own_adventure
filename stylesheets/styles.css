@@ -1,60 +1,68 @@
 body {
-  font-family: 'Robot', sans-serif;
-  background-image: url('https://cdn.onekindesign.com/wp-content/uploads/2017/12/Modern-Mountain-House-Locati-Architects-01-1-Kindesign.jpg')
+  background-image: url('http://www.eatwisconsincheese.com/images/cheese/cheese-curds-h.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100px;
   background-color: white;
-  padding
 }
 
-.nav-stuff {
-  display: flex;
-  justify-content:space-around;
+.say-hello {
+  width: 30%;
+}
+
+.button {
+  text-align: center;
+  width: 45%;
+  margin: auto;
+  background-color: #33c66e;
+  color: white;
+  border-radius: 5px;
+}
+
+.left-nav {
+  padding-right: 700px;
+}
+
+.login {
   padding-right: 20px;
 }
 
-.nav-stuff a {
-  text-decoration: none;
-  padding: 10px;
-  color: grey;
-  font-size: 12px;
+.login a {
+  padding: 5px;
+  color: #33c66e;
 }
 
-.earnings-search h1 {
-  font-size: 20px;
-}
-
-.text {
-  width: 411px ;
-  height: 111px;
-  margin: auto;
-  color: white;
+.started {
+  border: 1px solid #33c66e;
 }
 
 main {
   display: flex;
-  justify-content: space-between;
-}
-.logo {
-  height: 50px;
-  width: 75px;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
 }
 
-.earnings-search {
-  margin-top: 100px;
-  margin-right: 75px;
-  width: 415px;
-  height: 430px;
+.text {
+  text-align: center;
+  color: white;
+}
+
+
+footer {
+  text-align: center;
+  height: 100px;
   background-color: white;
 }
 
-.earnings-search h1 {
-  padding-left: 50px;
-}
-
-form {
-  padding-left: 50px;
+a {
+  text-decoration: none;
+  color: black;
 }
